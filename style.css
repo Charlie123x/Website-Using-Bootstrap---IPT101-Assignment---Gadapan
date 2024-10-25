@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("https://www.freeppt7.com/uploads/allimg/240323/1-2403232149560-L.jpg");
+    background-size: cover;
+}
+
+.mt-11 {
+    margin-top: 11rem;
+}
