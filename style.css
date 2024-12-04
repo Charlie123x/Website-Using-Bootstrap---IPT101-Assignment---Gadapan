@@ -1,13 +1,117 @@
 * {
+    font-family: 'Gill Sans', sans-serif;
+    list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 body {
+    background: #333;
+    text-transform: uppercase;
     background: url("https://www.freeppt7.com/uploads/allimg/240323/1-2403232149560-L.jpg");
     background-size: cover;
+    
 }
 
 .mt-11 {
     margin-top: 11rem;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    margin: 5px;
+}
+
+.skill  {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #333;
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 0, 0, 1) 100%);
+}
+
+.html {
+    width: 55%;
+    animation: html 1s;
+}
+
+.css {
+    width: 60%;
+    animation: css 1s;
+}
+
+.php {
+    width: 45%;
+    animation: php 1s;
+}
+
+.javascript {
+    width: 40%;
+    animation: javascript 1s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
 }
