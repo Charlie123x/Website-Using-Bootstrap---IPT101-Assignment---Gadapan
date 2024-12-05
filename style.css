@@ -3,7 +3,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,14 +18,13 @@ body {
     margin-top: 11rem;
 }
 
-h2 {
-    text-align: center;
-}
 h3 {
     margin: 5px;
 }
 
-.skill  {
+
+
+#skill  {
     width: 500px;
     margin: 60px auto;
     color: #fff;
@@ -34,7 +33,7 @@ h3 {
     background-color: #333;
 }
 
-.skill li{
+#skill li{
     margin: 20px 0;
     padding: 10px;
 }
