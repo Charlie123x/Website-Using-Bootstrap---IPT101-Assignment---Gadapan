@@ -114,3 +114,9 @@ h3 {
         width: 60%;
     }
 }
+
+.carousel-item image {
+    object-fit: auto;
+    width: 100%;
+    height: 400px;
+}
