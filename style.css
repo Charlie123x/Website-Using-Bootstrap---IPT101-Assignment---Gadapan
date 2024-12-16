@@ -115,10 +115,15 @@ h3 {
     }
 }
 
-.carousel-item image {
-    object-fit: auto;
-    width: 100%;
-    height: 400px;
+.carousel-item img {
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+    height: auto;
+}
+
+.carousel-inner {
+    text-align: center;
 }
 
 .typing {
